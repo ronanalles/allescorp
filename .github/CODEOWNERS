@@ -1,0 +1,7 @@
+# Alterações no projeto exigem revisão do proprietário.
+* @ronanalles
+
+# Áreas sensíveis recebem a mesma proteção explicitamente.
+/.github/ @ronanalles
+/prisma/ @ronanalles
+/src/lib/ @ronanalles
