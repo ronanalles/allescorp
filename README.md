@@ -2,6 +2,12 @@
 
 ERP web moderno, multiempresa e orientado à operação brasileira. A primeira entrega estabelece a experiência visual, os módulos do produto, as regras críticas de negócio e o modelo relacional que sustenta a evolução do sistema.
 
+## Demonstração online
+
+Depois de habilitar **Settings → Pages → Source: GitHub Actions** no repositório, cada atualização da branch `main` é publicada automaticamente em:
+
+https://ronanalles.github.io/allescorp/
+
 ## O que já existe
 
 - dashboard executivo responsivo com faturamento, resultado, pedidos, estoque e fluxo de caixa;
