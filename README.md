@@ -56,3 +56,5 @@ Esta versão é uma fundação funcional de produto: toda a experiência navegá
 ## Segurança
 
 Nunca salve tokens de marketplace, certificados A1, senhas ou segredos no Git. Use um cofre de segredos no ambiente de produção. Dados financeiros e fiscais exigem permissões por função, auditoria, backups testados e revisão profissional antes de operar em produção.
+
+O repositório público contém somente a demonstração estática com dados fictícios. CodeQL, Dependabot, auditoria de dependências e CI verificam novas alterações automaticamente. Consulte [SECURITY.md](SECURITY.md) antes de integrar qualquer serviço externo.
