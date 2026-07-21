@@ -21,6 +21,12 @@ https://ronanalles.github.io/allescorp/
 - anúncios de Mercado Livre e Shopee ligados a um ou vários produtos e quantidades;
 - relatórios editáveis e trilha de auditoria previstos no banco;
 - testes das regras críticas de margem, custo médio, parcelamento e disponibilidade de kits.
+- persistência local dos registros criados na demonstração, sem enviar dados para terceiros;
+- inclusão de produtos, pessoas, movimentações, vendas, compras, lançamentos, documentos e anúncios;
+- busca global com atalho `Ctrl/Cmd + K` e filtros de pesquisa em cada módulo;
+- edição de status, arquivamento, trilha de atividades e restauração do ambiente;
+- exportação CSV por módulo e criação de relatórios personalizados;
+- painel de arquitetura para a futura conexão com Odoo, PostgreSQL, fiscal e marketplaces.
 
 ## Tecnologias
 
@@ -52,6 +58,8 @@ npm run build
 ## Estado da entrega
 
 Esta versão é uma fundação funcional de produto: toda a experiência navegável e o domínio do banco estão implementados. A persistência das telas, autenticação, emissão fiscal e sincronização oficial com marketplaces entram nas próximas etapas, pois dependem de infraestrutura, credenciais, certificados e homologações externas. Veja [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) e [docs/ROADMAP.md](docs/ROADMAP.md).
+
+No GitHub Pages, os registros criados são armazenados no `localStorage` do navegador. Essa persistência serve exclusivamente para demonstração e prototipação; não substitui banco de dados, autenticação, controle de acesso, backup ou auditoria de produção.
 
 ## Segurança
 
